@@ -1,0 +1,7 @@
+scrapy startproject [title]
+
+#一般クローラー
+scrapy genspider demo python123.io
+
+#スーパークローラー
+scrapy genspider -t crawl [spider_title] "[main url]"
