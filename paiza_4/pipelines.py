@@ -8,6 +8,10 @@
 from scrapy.exporters import JsonItemExporter
 from scrapy.pipelines.images import ImagesPipeline
 
+#DB用ライブラリ
+import MySQLdb
+from twisted.enterprise import adbapi
+import MySQLdb.cursors
 
 class Paiza4Pipeline(object):
     def process_item(self, item, spider):
@@ -21,7 +25,7 @@ class JsonExporterPipleline(object):
         self.exporter = JsonItemExporter(self.file, encoding="utf-8", ensure_ascii=False)
         self.exporter.start_exporting()
 
-    def close_spider(self,spider):
+    def close_spider(self, spider):
         self.exporter.finish_exporting()
         self.file.close()
 
@@ -37,3 +41,67 @@ class ArticleImagePipeline(ImagesPipeline):
         item["images_path"] = images_path
 
         return item
+
+
+#mysql保存
+#同期処理
+class MysqlPipeline(object):
+    def __init__(self):
+        self.conn = MySQLdb.connect('127.0.0.1', 'root', '', 'article_spider', charset="utf8", use_unicode=True)
+        self.cursor = self.conn.cursor()
+
+
+    def process_item(self, item, spider):
+        insert_sql = """
+        insert into paiza_spider(name,position,income,images,images_path,content,url,url_object_id,create_date)
+        VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)
+        """
+        self.cursor.execute(insert_sql, (item['name'], item['position'], item['income'], item['images'],
+                                         item['images_path'], item['content'], item['url'], item['url_object_id'],
+                                         item['create_date']))
+        self.conn.commit()
+
+
+#mysql保存
+#非同期処理    twisted    リンク池
+class MysqlTwistedPipline(object):
+    def __init__(self, dbpool):
+        self.dbpool = dbpool
+
+    @classmethod
+    def from_settings(cls, settings):
+        dbparms = dict(
+            host=settings['MYSQL_HOST'],
+            db=settings['MYSQL_DBNAME'],
+            user=settings['MYSQL_USER'],
+            passwd=settings['MYSQL_PASSWORD'],
+            charset='utf8',
+            cursorclass=MySQLdb.cursors.DictCursor,
+            use_unicode=True
+        )
+
+        dbpool = adbapi.ConnectionPool("MySQLdb", **dbparms)
+
+        return cls(dbpool)
+
+    def process_item(self, item, spider):
+        #twistedで非同期な処理を行う
+        query = self.dbpool.runInteraction(self.do_insert, item)
+        # 異常処理
+        query.addErrback(self.handle_error)
+
+
+    def handle_error(self,failure):
+        #非同期処理のエラーを処理
+        print(failure)
+
+    def do_insert(self, cursor, item):
+        insert_sql = """
+              insert into paiza_spider(name,position,income,images,images_path,content,url,url_object_id,create_date)
+              VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            """
+        cursor.execute(insert_sql, (item['name'], item['position'], item['income'], item['images'],
+                                         item['images_path'], item['content'], item['url'], item['url_object_id'],
+                                         item['create_date']))
+
+

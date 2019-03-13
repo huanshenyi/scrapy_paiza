@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ae54e1b-5ce0-4871-b27c-341735926bf5" name="Default Changelist" comment="" />
+    <list default="true" id="2ae54e1b-5ce0-4871-b27c-341735926bf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/18c972f866d204313460f44f209bb8b93ad2d801.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/2a7c12f14fea3634401678e598c53d9942dc6e8b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/35af244a746bcd549158a6e1523800a65cb10d57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/464b9992667caa5220a4572ca933f52ef93d0e40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/5871463ac884189839c98e1c21e09e56d93b0537.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/68badb6e0ca017759ba1791740595ba9e297e3d9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/6f4ba24b48a697475c6544057498a6a2dbd16a23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/7371593d8823f3bd0ed492d8520241f3349dc491.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/739d81c475f14b9596f7050e6458066d273cf670.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/7b38cac49330c5e31cb9e2dede24c8f032b0183e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/a0df285f6508ecfd4dc4d43bf79fbc361771b4fa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/a78e0977b95eb96813dc216cdefbb697df6736dd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/b1225e9588d05b0a922313c083567f7a508cb0a3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/b3f50906a570497b15fff56a22d9091de3331632.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/b514f47833c9b2cbb0bdac320914e753b1bd9a1a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/b574534b4e4b1cf0b7cc5f35bbe6c9c421da3a08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/c9fa0fdd306052992d1eb7f1fa33f36c92850810.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/images/full/f1e61032173abed174baffefedfa43541c289de7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/paiza_4/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/paiza_4/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/paiza_4/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paiza_4/spiders/paiza_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/paiza_4/spiders/paiza_spider.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,24 +33,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/paiza_4$start.coverage" NAME="start Coverage Results" MODIFIED="1552379732431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/paiza_4$start.coverage" NAME="start Coverage Results" MODIFIED="1552466975517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/paiza_4/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+            <state relative-caret-position="609">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paiza_4/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="307">
+              <caret line="66" column="25" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="25" />
               <folding>
                 <element signature="e#194#239#0" expanded="true" />
               </folding>
@@ -37,20 +61,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/paiza_4/spiders/paiza_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="769">
+              <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/paiza_4/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -70,30 +85,33 @@
       <find>item_completed</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/utils/common.py" />
         <option value="$PROJECT_DIR$/paiza_4/items.py" />
-        <option value="$PROJECT_DIR$/paiza_4/settings.py" />
         <option value="$PROJECT_DIR$/paiza_4/spiders/paiza_spider.py" />
         <option value="$PROJECT_DIR$/paiza_4/pipelines.py" />
+        <option value="$PROJECT_DIR$/paiza_4/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="514" />
-    <option name="y" value="19" />
+    <option name="x" value="818" />
+    <option name="y" value="72" />
     <option name="width" value="1769" />
     <option name="height" value="1097" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -112,22 +130,11 @@
               <item name="paiza_4" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="paiza_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paiza_4" type="462c0819:PsiDirectoryNode" />
-              <item name="paiza_4" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="full" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="paiza_4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="paiza_4" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -187,38 +194,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552375051946</updated>
-      <workItem from="1552375053526" duration="4404000" />
+      <workItem from="1552375053526" duration="5642000" />
+      <workItem from="1552465571083" duration="1471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4404000" />
+    <option name="totallyTimeSpent" value="7113000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="567" y="48" width="1769" height="1097" extended-state="0" />
+    <frame x="203" y="17" width="1769" height="1097" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10064365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10181393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289855" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2112676" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8634886" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289855" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,64 +268,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/spiders/jobbole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="26" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/items.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="e#194#207#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="67" column="49" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paiza_4/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="68" column="11" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paiza_4/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/articleexport.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="128" lean-forward="true" selection-start-column="128" selection-end-column="128" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paiza_4/spiders/paiza_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -328,13 +282,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/spiders/jobbole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paiza_4/spiders/paiza_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="769">
+          <caret line="56" column="59" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="106" selection-start-line="106" selection-end-line="109" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paiza_4/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ArticleSpider/ArticleSpider/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="103" column="108" lean-forward="true" selection-start-line="67" selection-end-line="103" selection-end-column="108" />
+          <folding>
+            <element signature="e#194#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/paiza_4/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="307">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="25" />
           <folding>
             <element signature="e#194#239#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paiza_4/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

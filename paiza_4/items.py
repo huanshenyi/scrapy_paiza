@@ -23,6 +23,7 @@ class PaizaArticleItem(scrapy.Item):
                 特徴
                 url
                 dbキー用のmd5url
+                作った時間
     """
     name = scrapy.Field()
     position = scrapy.Field()
@@ -32,3 +33,4 @@ class PaizaArticleItem(scrapy.Item):
     content = scrapy.Field()
     url = scrapy.Field()
     url_object_id = scrapy.Field()
+    create_date = scrapy.Field()

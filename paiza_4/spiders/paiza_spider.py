@@ -4,6 +4,7 @@ from urllib import parse
 from paiza_4.items import PaizaArticleItem
 from scrapy.http import Request
 from utils.common import get_md5
+from datetime import datetime
 
 
 class PaizaSpiderSpider(scrapy.Spider):
@@ -32,7 +33,8 @@ class PaizaSpiderSpider(scrapy.Spider):
                 画像 images
                 特徴 content
                 url
-                url_object_id
+                url_object_id(プレミアムキー代わり)
+
                 :return:
                 """
 
@@ -52,4 +54,5 @@ class PaizaSpiderSpider(scrapy.Spider):
         article_item['income'] = income
         article_item['images'] = [images]
         article_item['content'] = content
+        article_item['create_date'] = datetime.now().date()
         yield article_item
